@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_SIP_FUNC_DEPENDENTE" directorySegmentName="seg_0" id="43C6294D-AD8C-FB5C-A26D-233D83A6AAF0">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2021-03-17 21:06:19 UTC</createdTime>
+<ownerDesignName>Projeto_BD_Logico_SIP</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<sourcePk>1AE162E3-5623-8768-0C5F-11B9A0819164</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3CBC88E0-E4C9-7CE4-45EE-0734B6E8D443</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>74307FB7-E133-4FA3-DA6D-86AE024BA03F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

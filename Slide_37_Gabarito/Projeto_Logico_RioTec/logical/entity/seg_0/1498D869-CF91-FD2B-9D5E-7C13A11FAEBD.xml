@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1498D869-CF91-FD2B-9D5E-7C13A11FAEBD" name="T_RT_PEDIDO_VENDA">
+<createdBy>André</createdBy>
+<createdTime>2020-04-16 01:26:55 UTC</createdTime>
+<ownerDesignName>Projeto_Logico_RioTec</ownerDesignName>
+<engineerTo>
+<item key="3B900023-A8F4-1D43-7275-0ABB8837388D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NR_NOTA_VENDA" id="B81CFF7C-8145-E357-E868-5954BF4C744B">
+<createdBy>André</createdBy>
+<createdTime>2020-04-16 01:27:09 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a chave primária dos pedidos de venda da Rio Tec. Esse conteúdo é sequencial por Filial e deve ser preenchido automaticamente pela aplicação.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a chave primária dos pedidos de venda da Rio Tec. Esse conteúdo é sequencial por Filial e deve ser preenchido automaticamente pela aplicação.
+]]></commentInRDBMS>
+<ownerDesignName>Projeto_Logico_RioTec</ownerDesignName>
+<engineerTo>
+<item key="3B900023-A8F4-1D43-7275-0ABB8837388D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_VENDA" id="1B563282-4183-001B-398A-9274B39E330C">
+<createdBy>André</createdBy>
+<createdTime>2020-04-16 01:27:48 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a data em que foi realizada a venda e gerada a nota fiscal para o cliente. Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a data em que foi realizada a venda e gerada a nota fiscal para o cliente. Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>Projeto_Logico_RioTec</ownerDesignName>
+<engineerTo>
+<item key="3B900023-A8F4-1D43-7275-0ABB8837388D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VL_TOTAL_PEDIDO" id="E13458FF-A901-01F2-4782-D87ACD017C30">
+<createdBy>André</createdBy>
+<createdTime>2020-04-16 01:28:30 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o valor total de pedido a ser pago pelo cliente.  Seu conteúdo é obrigatório e não pode receber valores negativos.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o valor total de pedido a ser pago pelo cliente.  Seu conteúdo é obrigatório e não pode receber valores negativos.]]></commentInRDBMS>
+<ownerDesignName>Projeto_Logico_RioTec</ownerDesignName>
+<engineerTo>
+<item key="3B900023-A8F4-1D43-7275-0ABB8837388D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="69E11199-DCDC-53E1-DDD1-A1B91D49537F" name="PK_RT_PEDIDO_VENDA">
+<createdBy>André</createdBy>
+<createdTime>2020-04-16 01:27:33 UTC</createdTime>
+<ownerDesignName>Projeto_Logico_RioTec</ownerDesignName>
+<engineerTo>
+<item key="3B900023-A8F4-1D43-7275-0ABB8837388D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>B81CFF7C-8145-E357-E868-5954BF4C744B</newElementsIDs>
+<usedAttributes>
+<attributeRef>B81CFF7C-8145-E357-E868-5954BF4C744B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

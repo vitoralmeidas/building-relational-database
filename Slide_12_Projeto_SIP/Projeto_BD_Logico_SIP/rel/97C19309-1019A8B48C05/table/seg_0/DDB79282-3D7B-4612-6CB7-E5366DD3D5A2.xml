@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DDB79282-3D7B-4612-6CB7-E5366DD3D5A2" name="T_SIP_FUNCIONARIO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2021-03-17 21:08:14 UTC</createdTime>
+<generatorID>3CBC88E0-E4C9-7CE4-45EE-0734B6E8D443</generatorID>
+<ownerDesignName>Projeto_BD_Logico_SIP</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nr_matricula" id="C813F6A5-A522-8ABF-3FC8-151F42D3E6C6">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2021-03-17 21:08:14 UTC</createdTime>
+<generatorID>0EB23054-32DA-F025-666D-CD61D187A364</generatorID>
+<ownerDesignName>Projeto_BD_Logico_SIP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_depto" id="71347F5A-A68D-6582-49C0-2A3FEE7EF2C4">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2021-03-17 21:08:14 UTC</createdTime>
+<generatorID>6A31CF54-D752-C68A-4EE0-0F35462D39F1</generatorID>
+<ownerDesignName>Projeto_BD_Logico_SIP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="64E3BBBB-CA5D-8C9B-C8FC-3F80761E77AE" referredColumn="FF1AE070-EE31-DDF9-82BA-43A0A87D042A"/>
+</associations>
+</Column>
+<Column name="nm_funcionario" id="311422AB-0D71-4129-3F79-719D48B41C2D">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2021-03-17 21:08:14 UTC</createdTime>
+<generatorID>80BF4C30-D511-4566-C9C4-A1AE43A76B6B</generatorID>
+<ownerDesignName>Projeto_BD_Logico_SIP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_nascimento" id="3668DC24-F15B-2DA3-7CD6-FD072BD38E2C">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2021-03-17 21:08:14 UTC</createdTime>
+<generatorID>E556D042-0965-73ED-4873-30C542FCFAEE</generatorID>
+<ownerDesignName>Projeto_BD_Logico_SIP</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_admissao" id="D6A88E26-C718-44C5-9F32-92F6E83F13EE">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2021-03-17 21:08:14 UTC</createdTime>
+<generatorID>E9BC10C4-DE9A-4336-BDAC-73C5567FCF67</generatorID>
+<ownerDesignName>Projeto_BD_Logico_SIP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_endereco" id="A3AA780E-528D-E4CC-1B65-D8A8D0C896FF">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2021-03-17 21:08:14 UTC</createdTime>
+<generatorID>B3EFF01B-DF43-6C4F-4653-D64DE702FFED</generatorID>
+<ownerDesignName>Projeto_BD_Logico_SIP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_salario" id="2DD71EA4-DB21-1417-A72F-3FE7CADEEAB7">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2021-03-17 21:08:14 UTC</createdTime>
+<generatorID>69E42EF9-A798-0D42-3AA3-8DC8F2DC3960</generatorID>
+<ownerDesignName>Projeto_BD_Logico_SIP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5820602E-4C0C-203F-41E5-3DE3C44E6BF8" name="PK_SIP_FUNCIONARIO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2021-03-17 21:08:14 UTC</createdTime>
+<generatorID>1AE162E3-5623-8768-0C5F-11B9A0819164</generatorID>
+<ownerDesignName>Projeto_BD_Logico_SIP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C813F6A5-A522-8ABF-3FC8-151F42D3E6C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5981C1C7-B98F-6CBD-F851-0F3C8FD804B7" name="FK_SIP_FUNC_DEPTO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2021-03-17 21:08:14 UTC</createdTime>
+<generatorID>25273748-F6DA-5A9C-97D8-CD5289ED667E</generatorID>
+<ownerDesignName>Projeto_BD_Logico_SIP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="71347F5A-A68D-6582-49C0-2A3FEE7EF2C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

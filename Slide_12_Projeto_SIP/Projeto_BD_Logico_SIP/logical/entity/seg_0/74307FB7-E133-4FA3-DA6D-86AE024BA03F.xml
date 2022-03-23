@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="74307FB7-E133-4FA3-DA6D-86AE024BA03F" name="T_SIP_DEPENDENTE">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2021-03-17 21:05:20 UTC</createdTime>
+<generatorID>32A366F9-BE14-5B61-F66B-DEC9DE0111FC</generatorID>
+<ownerDesignName>Projeto_BD_Logico_SIP</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_dependente" id="DA59FCF1-C2D9-9534-3690-ADD584DC7A2F">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2021-03-17 21:05:20 UTC</createdTime>
+<generatorID>51FE3161-D503-F40A-DD5A-6A67BE809FD2</generatorID>
+<ownerDesignName>Projeto_BD_Logico_SIP</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_matricula" id="891DA8FE-D0FB-935C-AE95-DDD4B63CA2A4">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2021-03-17 21:06:19 UTC</createdTime>
+<generatorID>43C6294D-AD8C-FB5C-A26D-233D83A6AAF0</generatorID>
+<ownerDesignName>Projeto_BD_Logico_SIP</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<referedAttribute>0EB23054-32DA-F025-666D-CD61D187A364</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_dependente" id="27E6104D-14EB-7501-3C96-F6353DA4D956">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2021-03-17 21:05:20 UTC</createdTime>
+<generatorID>810483EE-729B-610E-BC0B-B446ECB4068B</generatorID>
+<ownerDesignName>Projeto_BD_Logico_SIP</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_nascimento" id="76D7FD3F-0937-E96F-EDCD-39AB27359A96">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2021-03-17 21:05:20 UTC</createdTime>
+<generatorID>7ACE28BA-4805-CB46-D229-0B7E36FE1CB5</generatorID>
+<ownerDesignName>Projeto_BD_Logico_SIP</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F1C91D68-FA07-7830-FFB2-5CCA3ED07060" name="PK_SIP_DEPENDENTE">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2021-03-17 21:05:20 UTC</createdTime>
+<generatorID>DEE109E9-E90F-7CD7-E0DA-F7F79CDB9538</generatorID>
+<ownerDesignName>Projeto_BD_Logico_SIP</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DA59FCF1-C2D9-9534-3690-ADD584DC7A2F</attributeRef>
+<attributeRef>891DA8FE-D0FB-935C-AE95-DDD4B63CA2A4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

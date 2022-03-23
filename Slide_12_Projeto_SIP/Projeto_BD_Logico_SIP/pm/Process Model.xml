@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="8FAACF80-C393-052C-1588-CA15EF552045">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-07-27 15:45:45 UTC</createdTime>
+<ownerDesignName>Slide_13</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

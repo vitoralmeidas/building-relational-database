@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="T_FIAP_PROF_DISCIPLINA" directorySegmentName="seg_0" id="8A51FD04-CCA9-564C-93A1-04D2AA72BD8D">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-04-09 01:36:34 UTC</createdTime>
+<ownerDesignName>Entidade_Associativa</ownerDesignName>
+<engineerTo>
+<item key="E2CD2CC0-1F87-58A1-848E-7425513A3F15" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>2087308F-74F9-C52E-B176-19C9104A3D21</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1F774C6E-FC9F-A45D-900D-2D65CDD26524</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

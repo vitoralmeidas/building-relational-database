@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A1B843C4-6515-6955-2513-A1FA92A4D36D" name="T_RT_PRODUTO">
+<createdBy>André</createdBy>
+<createdTime>2020-04-16 01:36:13 UTC</createdTime>
+<ownerDesignName>Projeto_Logico_RioTec</ownerDesignName>
+<engineerTo>
+<item key="3B900023-A8F4-1D43-7275-0ABB8837388D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CD_PRODUTO" id="B0C34CA1-2CE1-296D-664D-88A9B0BB618D">
+<createdBy>André</createdBy>
+<createdTime>2020-04-16 01:36:21 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a chave primária do produto existente na Rio Tec.  Esse conteúdo será preenchido automaticamente pela aplicação.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a chave primária do produto existente na Rio Tec.  Esse conteúdo será preenchido automaticamente pela aplicação.]]></commentInRDBMS>
+<ownerDesignName>Projeto_Logico_RioTec</ownerDesignName>
+<engineerTo>
+<item key="3B900023-A8F4-1D43-7275-0ABB8837388D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_PRODUTO" id="3C5C54EF-6165-BB83-1386-EA334D5D57CF">
+<createdBy>André</createdBy>
+<createdTime>2020-04-16 01:37:04 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o nome do produto existente na Rio Tec.  Seu conteúdo é obrigatório e deve ser cadastrado no padrão InitCap.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o nome do produto existente na Rio Tec.  Seu conteúdo é obrigatório e deve ser cadastrado no padrão InitCap.]]></commentInRDBMS>
+<ownerDesignName>Projeto_Logico_RioTec</ownerDesignName>
+<engineerTo>
+<item key="3B900023-A8F4-1D43-7275-0ABB8837388D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VL_PRECO_UNITARIO" id="2DDD27D0-6796-75A3-35EB-175223773C72">
+<createdBy>André</createdBy>
+<createdTime>2020-04-16 01:36:45 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o valor do preço unitário do produto na Rio Tec.  Seu conteúdo é obrigatório e não é possível possuir valores negativos..]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o valor do preço unitário do produto na Rio Tec.  Seu conteúdo é obrigatório e não é possível possuir valores negativos.]]></commentInRDBMS>
+<ownerDesignName>Projeto_Logico_RioTec</ownerDesignName>
+<engineerTo>
+<item key="3B900023-A8F4-1D43-7275-0ABB8837388D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4BF33063-3420-A5ED-1B2B-E1BC1C96806B" name="PK_RT_PRODUTO">
+<createdBy>André</createdBy>
+<createdTime>2020-04-16 01:36:33 UTC</createdTime>
+<ownerDesignName>Projeto_Logico_RioTec</ownerDesignName>
+<engineerTo>
+<item key="3B900023-A8F4-1D43-7275-0ABB8837388D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>B0C34CA1-2CE1-296D-664D-88A9B0BB618D</newElementsIDs>
+<usedAttributes>
+<attributeRef>B0C34CA1-2CE1-296D-664D-88A9B0BB618D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

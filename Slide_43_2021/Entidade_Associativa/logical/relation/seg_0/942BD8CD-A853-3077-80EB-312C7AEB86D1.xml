@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="T_FIAP_MOTORISTA_VEI" directorySegmentName="seg_0" id="942BD8CD-A853-3077-80EB-312C7AEB86D1">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-04-09 01:37:24 UTC</createdTime>
+<ownerDesignName>Entidade_Associativa</ownerDesignName>
+<engineerTo>
+<item key="E2CD2CC0-1F87-58A1-848E-7425513A3F15" value="true"/>
+</engineerTo>
+<sourceTransferable>false</sourceTransferable>
+<targetTransferable>false</targetTransferable>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>330CE700-9109-26BB-FEF7-C3ACF6D3210B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5B9E393E-1D8A-6DEB-F337-20790C770FBF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

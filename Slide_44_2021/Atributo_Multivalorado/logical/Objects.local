@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="506DDC9A-FC9E-D13D-7FAD-ED571E3AEA46" name="T_FIAP_FUNCNIONARIO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="7B519F61-B370-3527-E53F-14E358469FE8" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="C5153E1A-0C36-99E4-0FDF-BD7427056DA5" name="T_RHSTU_TELEFONE_PACIENTE" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="7B519F61-B370-3527-E53F-14E358469FE8" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="8BCC4E83-DAA8-181A-7DE9-422F9A8742E1" name="FK_FIAP_FUNC_TELEF" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="7B519F61-B370-3527-E53F-14E358469FE8" propertySourceId="506DDC9A-FC9E-D13D-7FAD-ED571E3AEA46" propertyTargetId="C5153E1A-0C36-99E4-0FDF-BD7427056DA5"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

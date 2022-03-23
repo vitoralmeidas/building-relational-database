@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="BB2F88B9-8C76-5F48-A783-1FF232BCC328">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-04-08 18:15:42 UTC</createdTime>
+<ownerDesignName>Entidade_Associativa</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

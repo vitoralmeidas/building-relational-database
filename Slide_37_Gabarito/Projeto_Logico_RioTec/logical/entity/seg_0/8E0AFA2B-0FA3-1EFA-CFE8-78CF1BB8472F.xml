@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8E0AFA2B-0FA3-1EFA-CFE8-78CF1BB8472F" name="T_RT_FILIAL">
+<createdBy>André</createdBy>
+<createdTime>2020-04-16 01:00:17 UTC</createdTime>
+<ownerDesignName>Projeto_Logico_RioTec</ownerDesignName>
+<engineerTo>
+<item key="3B900023-A8F4-1D43-7275-0ABB8837388D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CD_EMPRESA" id="396F4828-9347-DCCE-97BA-360A37611FDF">
+<createdBy>André</createdBy>
+<createdTime>2020-04-16 01:03:22 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a chave primária da Filial da Rio Tec. Seu conteúdo será incremental e preenchido pela aplicação.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a chave primária da Filial da Rio Tec. Seu conteúdo será incremental e preenchido pela aplicação.]]></commentInRDBMS>
+<ownerDesignName>Projeto_Logico_RioTec</ownerDesignName>
+<engineerTo>
+<item key="3B900023-A8F4-1D43-7275-0ABB8837388D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_RAZAO_SOCIAL" id="2512BDB1-35DF-90D6-EA6D-32DFF32D4126">
+<createdBy>André</createdBy>
+<createdTime>2020-04-16 01:04:44 UTC</createdTime>
+<ownerDesignName>Projeto_Logico_RioTec</ownerDesignName>
+<engineerTo>
+<item key="3B900023-A8F4-1D43-7275-0ABB8837388D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_FANTASIA" id="D03A3B24-1F42-0E7D-CC60-71EA282F59F7">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2021-03-31 16:05:47 UTC</createdTime>
+<ownerDesignName>Projeto_Logico_RioTec</ownerDesignName>
+<engineerTo>
+<item key="3B900023-A8F4-1D43-7275-0ABB8837388D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_ENDERECO" id="873AC686-1A4B-0A70-1171-D99D2E9540B7">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2021-03-31 16:05:29 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o endereço da Filial da Rio Tec. Seu conteúdo deve ser obrigatório e dentro dessa estrutura vamos armazenar a Sigla do Estado, o Nome do Estado,Munícipio, Cidade, Bairro, logradouro e dados do endereço.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o endereço da Filial da Rio Tec. Seu conteúdo deve ser obrigatório e dentro dessa estrutura vamos armazenar a Sigla do Estado, o Nome do Estado,Munícipio, Cidade, Bairro, logradouro e dados do endereço.]]></commentInRDBMS>
+<ownerDesignName>Projeto_Logico_RioTec</ownerDesignName>
+<engineerTo>
+<item key="3B900023-A8F4-1D43-7275-0ABB8837388D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="87E4DD7C-942D-39FF-6863-49091F0A61C3" name="PK_RT_FILIAL">
+<createdBy>André</createdBy>
+<createdTime>2020-04-16 01:04:38 UTC</createdTime>
+<ownerDesignName>Projeto_Logico_RioTec</ownerDesignName>
+<engineerTo>
+<item key="3B900023-A8F4-1D43-7275-0ABB8837388D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>396F4828-9347-DCCE-97BA-360A37611FDF</newElementsIDs>
+<usedAttributes>
+<attributeRef>396F4828-9347-DCCE-97BA-360A37611FDF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

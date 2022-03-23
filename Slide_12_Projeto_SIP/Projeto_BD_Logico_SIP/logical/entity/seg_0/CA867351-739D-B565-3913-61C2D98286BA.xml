@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CA867351-739D-B565-3913-61C2D98286BA" name="T_SIP_IMPLANTACAO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2021-03-17 21:05:20 UTC</createdTime>
+<generatorID>704F2C75-00C6-A1D5-DC20-9DEB549EEC08</generatorID>
+<ownerDesignName>Projeto_BD_Logico_SIP</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_implantacao" id="F61698AD-C197-85E0-F239-40DAC53732AD">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2021-03-17 21:05:20 UTC</createdTime>
+<generatorID>0DBAA0D9-62B1-105D-E494-E8B2230E5FE7</generatorID>
+<ownerDesignName>Projeto_BD_Logico_SIP</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_projeto" id="552E24EE-4EE5-4984-104B-D37D6B21B179">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2021-03-17 21:06:55 UTC</createdTime>
+<generatorID>9D5FE052-13DC-F72E-1C38-A1E77566F2FD</generatorID>
+<ownerDesignName>Projeto_BD_Logico_SIP</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<referedAttribute>025220A0-D441-C33F-7E46-234533938A26</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_matricula" id="05B25A7E-1483-9822-D417-07096E9C1541">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2021-03-17 21:07:18 UTC</createdTime>
+<generatorID>6937A05E-6625-B5B8-5914-BE1C1AF1723F</generatorID>
+<ownerDesignName>Projeto_BD_Logico_SIP</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<referedAttribute>0EB23054-32DA-F025-666D-CD61D187A364</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_entrada" id="95756876-7936-3129-6C73-F2B8001555F7">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2021-03-17 21:05:20 UTC</createdTime>
+<generatorID>F13A65BB-2A1B-10F6-3580-20927F239DA4</generatorID>
+<ownerDesignName>Projeto_BD_Logico_SIP</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_saida" id="A1BB86D1-92A6-FECC-AF85-D452E585E8A3">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2021-03-17 21:05:20 UTC</createdTime>
+<generatorID>3C81F84F-8A63-3BA3-F610-CA5E17B9F438</generatorID>
+<ownerDesignName>Projeto_BD_Logico_SIP</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1C8A0462-0437-3805-7FE8-8F34F0AA4236" name="PK_SIP_IMPLANTACAO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2021-03-17 21:05:20 UTC</createdTime>
+<generatorID>ABBE9E4B-9DBE-2490-D1D2-6023C2467F7E</generatorID>
+<ownerDesignName>Projeto_BD_Logico_SIP</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F61698AD-C197-85E0-F239-40DAC53732AD</attributeRef>
+<attributeRef>552E24EE-4EE5-4984-104B-D37D6B21B179</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

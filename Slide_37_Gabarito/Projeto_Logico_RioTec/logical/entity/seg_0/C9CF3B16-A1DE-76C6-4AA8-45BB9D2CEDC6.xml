@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C9CF3B16-A1DE-76C6-4AA8-45BB9D2CEDC6" name="T_RT_CLIENTE_TELEFONE">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2021-03-31 15:51:38 UTC</createdTime>
+<ownerDesignName>Projeto_Logico_RioTec</ownerDesignName>
+<engineerTo>
+<item key="3B900023-A8F4-1D43-7275-0ABB8837388D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_TELEFONE" id="F1FA8C82-F2EC-67DA-C372-6F4F1AF1E699">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2021-03-31 15:51:38 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a chave primária dos telefoes dos clientes. Esse conteúdo será preenchido automaticamente pela aplicação.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a chave primária dos telefoes dos clientes. Esse conteúdo será preenchido automaticamente pela aplicação.]]></commentInRDBMS>
+<ownerDesignName>Projeto_Logico_RioTec</ownerDesignName>
+<engineerTo>
+<item key="3B900023-A8F4-1D43-7275-0ABB8837388D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_DDI" id="6923E998-6BBF-6D86-917C-33A66C11E45C">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2021-03-31 15:51:38 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá recebero número do DDI do telefone do cliente. Seu conteúdo é obrigatório e deverá ser cadastrado apenas número de DDI válido.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá recebero número do DDI do telefone do cliente. Seu conteúdo é obrigatório e deverá ser cadastrado apenas número de DDI válido.]]></commentInRDBMS>
+<ownerDesignName>Projeto_Logico_RioTec</ownerDesignName>
+<engineerTo>
+<item key="3B900023-A8F4-1D43-7275-0ABB8837388D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_DDD" id="29348294-0FC6-FDD0-B8CC-EA515B71F3B1">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2021-03-31 15:51:38 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá recebero número do DDD do telefone do cliente. Seu conteúdo é obrigatório e deverá ser cadastrado apenas número de DDD válido.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá recebero número do DDD do telefone do cliente. Seu conteúdo é obrigatório e deverá ser cadastrado apenas número de DDD válido.]]></commentInRDBMS>
+<ownerDesignName>Projeto_Logico_RioTec</ownerDesignName>
+<engineerTo>
+<item key="3B900023-A8F4-1D43-7275-0ABB8837388D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_TELEFONE" id="3A45F78E-A61E-54D5-3E9C-ED2C43665983">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2021-03-31 15:51:38 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá recebero número do telefone do cliente. Seu conteúdo é obrigatório e deverá ser cadastrado apenas número de telefone válido.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá recebero número do telefone do cliente. Seu conteúdo é obrigatório e deverá ser cadastrado apenas número de telefone válido.]]></commentInRDBMS>
+<ownerDesignName>Projeto_Logico_RioTec</ownerDesignName>
+<engineerTo>
+<item key="3B900023-A8F4-1D43-7275-0ABB8837388D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8C3BFEC9-1F35-41F7-730C-3BAE37F505FE" name="PK_RT_CLIENTE_TELEFONE">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2021-03-31 15:51:38 UTC</createdTime>
+<ownerDesignName>Projeto_Logico_RioTec</ownerDesignName>
+<engineerTo>
+<item key="3B900023-A8F4-1D43-7275-0ABB8837388D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>F1FA8C82-F2EC-67DA-C372-6F4F1AF1E699</newElementsIDs>
+<usedAttributes>
+<attributeRef>F1FA8C82-F2EC-67DA-C372-6F4F1AF1E699</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

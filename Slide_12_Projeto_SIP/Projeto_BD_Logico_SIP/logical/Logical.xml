@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="3C71F8FF-9155-4CAC-1FD5-F6C7B4930403" mainViewID="D441B495-CBD7-3B14-840F-D07E32AC59B3">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-07-27 15:45:45 UTC</createdTime>
+<ownerDesignName>Slide_13</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

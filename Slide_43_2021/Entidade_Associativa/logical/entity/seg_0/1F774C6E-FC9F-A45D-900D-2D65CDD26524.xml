@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1F774C6E-FC9F-A45D-900D-2D65CDD26524" name="T_FIAP_DISCIPLINA">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-04-08 18:17:43 UTC</createdTime>
+<ownerDesignName>Entidade_Associativa</ownerDesignName>
+<engineerTo>
+<item key="E2CD2CC0-1F87-58A1-848E-7425513A3F15" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD_DISCIPLINA" id="37A879DD-5772-343C-6F2B-8FA2410FDD19">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-04-08 18:17:54 UTC</createdTime>
+<ownerDesignName>Entidade_Associativa</ownerDesignName>
+<engineerTo>
+<item key="E2CD2CC0-1F87-58A1-848E-7425513A3F15" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOM_DISCIPLINA" id="3AE848AD-A378-1540-6940-BDC0AF79760A">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-04-08 18:18:09 UTC</createdTime>
+<ownerDesignName>Entidade_Associativa</ownerDesignName>
+<engineerTo>
+<item key="E2CD2CC0-1F87-58A1-848E-7425513A3F15" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NUM_CREDITOS" id="75515763-21FD-CF80-82A8-63F3EFFF1F84">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-04-08 18:18:22 UTC</createdTime>
+<ownerDesignName>Entidade_Associativa</ownerDesignName>
+<engineerTo>
+<item key="E2CD2CC0-1F87-58A1-848E-7425513A3F15" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DAT_INICIO" id="7075AE68-EFE7-6D7E-1618-EECC07B333E5">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-04-08 18:18:38 UTC</createdTime>
+<ownerDesignName>Entidade_Associativa</ownerDesignName>
+<engineerTo>
+<item key="E2CD2CC0-1F87-58A1-848E-7425513A3F15" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_TERMINO" id="B9AF25DB-4F47-EE6C-ABEC-CA10D54904CD">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-04-08 18:19:13 UTC</createdTime>
+<ownerDesignName>Entidade_Associativa</ownerDesignName>
+<engineerTo>
+<item key="E2CD2CC0-1F87-58A1-848E-7425513A3F15" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CC7D5C2B-A640-6EEB-61EA-5DDAECC60A3A" name="PK_FIAP_DISCIPLINA">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-04-08 18:18:08 UTC</createdTime>
+<ownerDesignName>Entidade_Associativa</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="E2CD2CC0-1F87-58A1-848E-7425513A3F15" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>37A879DD-5772-343C-6F2B-8FA2410FDD19</newElementsIDs>
+<usedAttributes>
+<attributeRef>37A879DD-5772-343C-6F2B-8FA2410FDD19</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

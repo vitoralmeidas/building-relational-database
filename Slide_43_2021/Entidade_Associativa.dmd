@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Entidade_Associativa" id="691BE6B8-0838-143F-A36F-F7CAD2EE01B9" version="3.5">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-04-08 18:15:41 UTC</createdTime>
+<ownerDesignName>Entidade_Associativa</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>691BE6B8-0838-143F-A36F-F7CAD2EE01B9</designId>
+</OSDM_Design>

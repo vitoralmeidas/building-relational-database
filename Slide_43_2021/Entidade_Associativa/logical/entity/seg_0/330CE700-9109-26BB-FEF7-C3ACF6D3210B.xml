@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="330CE700-9109-26BB-FEF7-C3ACF6D3210B" name="T_LOGGY_MOTORISTA">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-04-08 18:20:54 UTC</createdTime>
+<ownerDesignName>Entidade_Associativa</ownerDesignName>
+<engineerTo>
+<item key="E2CD2CC0-1F87-58A1-848E-7425513A3F15" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NUM_MATRICULA_MOTORISTA" id="2FFC7CD5-B00A-2B69-1241-2EBA6E1E1B3A">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-04-08 18:20:54 UTC</createdTime>
+<ownerDesignName>Entidade_Associativa</ownerDesignName>
+<engineerTo>
+<item key="E2CD2CC0-1F87-58A1-848E-7425513A3F15" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOM_MOTORISTA" id="9A606A0E-1C53-560F-95B9-305B30CBB43C">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-04-08 18:20:54 UTC</createdTime>
+<ownerDesignName>Entidade_Associativa</ownerDesignName>
+<engineerTo>
+<item key="E2CD2CC0-1F87-58A1-848E-7425513A3F15" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DAT_NASCIMENTO" id="3117D3D9-A4A6-778F-5D87-A193B9881718">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-04-08 18:20:54 UTC</createdTime>
+<ownerDesignName>Entidade_Associativa</ownerDesignName>
+<engineerTo>
+<item key="E2CD2CC0-1F87-58A1-848E-7425513A3F15" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NUM_CPF" id="57E97698-AE10-91A3-668A-21D20115CF07">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-04-08 18:20:54 UTC</createdTime>
+<ownerDesignName>Entidade_Associativa</ownerDesignName>
+<engineerTo>
+<item key="E2CD2CC0-1F87-58A1-848E-7425513A3F15" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F176DD90-9B2A-8C41-D024-30E0511992D3" name="PK_LOGGY_MOTORISTA">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-04-08 18:20:54 UTC</createdTime>
+<ownerDesignName>Entidade_Associativa</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="E2CD2CC0-1F87-58A1-848E-7425513A3F15" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>2FFC7CD5-B00A-2B69-1241-2EBA6E1E1B3A</newElementsIDs>
+<usedAttributes>
+<attributeRef>2FFC7CD5-B00A-2B69-1241-2EBA6E1E1B3A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

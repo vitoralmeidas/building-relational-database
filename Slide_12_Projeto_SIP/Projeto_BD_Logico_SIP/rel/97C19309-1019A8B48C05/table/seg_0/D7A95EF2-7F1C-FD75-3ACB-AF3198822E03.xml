@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D7A95EF2-7F1C-FD75-3ACB-AF3198822E03" name="T_SIP_DEPENDENTE">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2021-03-17 21:08:14 UTC</createdTime>
+<generatorID>74307FB7-E133-4FA3-DA6D-86AE024BA03F</generatorID>
+<ownerDesignName>Projeto_BD_Logico_SIP</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_dependente" id="03D92334-625F-5E00-C614-5FACD4F4D200">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2021-03-17 21:08:14 UTC</createdTime>
+<generatorID>DA59FCF1-C2D9-9534-3690-ADD584DC7A2F</generatorID>
+<ownerDesignName>Projeto_BD_Logico_SIP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_matricula" id="B949ACD0-56B4-5E2F-BD46-31BA8C7560CD">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2021-03-17 21:08:14 UTC</createdTime>
+<generatorID>891DA8FE-D0FB-935C-AE95-DDD4B63CA2A4</generatorID>
+<ownerDesignName>Projeto_BD_Logico_SIP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C3D5A6A6-B086-AC1D-D93F-166D0000689F" referredColumn="C813F6A5-A522-8ABF-3FC8-151F42D3E6C6"/>
+</associations>
+</Column>
+<Column name="nm_dependente" id="BBA0C649-5153-1FD5-BB40-FF17EC651B73">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2021-03-17 21:08:14 UTC</createdTime>
+<generatorID>27E6104D-14EB-7501-3C96-F6353DA4D956</generatorID>
+<ownerDesignName>Projeto_BD_Logico_SIP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_nascimento" id="2EA18FE9-9A51-8433-121B-C2B61AFB0FF4">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2021-03-17 21:08:14 UTC</createdTime>
+<generatorID>76D7FD3F-0937-E96F-EDCD-39AB27359A96</generatorID>
+<ownerDesignName>Projeto_BD_Logico_SIP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="835F875D-3B63-C2CC-8D10-59E67B617F87" name="PK_SIP_DEPENDENTE">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2021-03-17 21:08:14 UTC</createdTime>
+<generatorID>F1C91D68-FA07-7830-FFB2-5CCA3ED07060</generatorID>
+<ownerDesignName>Projeto_BD_Logico_SIP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="03D92334-625F-5E00-C614-5FACD4F4D200"/>
+<colUsage columnID="B949ACD0-56B4-5E2F-BD46-31BA8C7560CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="305327B3-93D9-BB74-D2C1-0A91DBAC792C" name="FK_SIP_FUNC_DEPENDENTE">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2021-03-17 21:08:14 UTC</createdTime>
+<generatorID>43C6294D-AD8C-FB5C-A26D-233D83A6AAF0</generatorID>
+<ownerDesignName>Projeto_BD_Logico_SIP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B949ACD0-56B4-5E2F-BD46-31BA8C7560CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

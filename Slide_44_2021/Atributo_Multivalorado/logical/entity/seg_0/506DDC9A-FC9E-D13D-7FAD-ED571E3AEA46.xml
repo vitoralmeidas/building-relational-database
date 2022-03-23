@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="506DDC9A-FC9E-D13D-7FAD-ED571E3AEA46" name="T_FIAP_FUNCNIONARIO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2021-03-11 14:57:46 UTC</createdTime>
+<ownerDesignName>Atributo_Multivalorado</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NR_MATRICULA" id="15A097FF-A07C-398B-0F86-D42FFB66F5C7">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2021-03-11 14:58:09 UTC</createdTime>
+<ownerDesignName>Atributo_Multivalorado</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_FUNCIONARIO" id="E7B9BE27-8D29-04BC-E636-46B8778D8946">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2021-03-11 14:59:16 UTC</createdTime>
+<ownerDesignName>Atributo_Multivalorado</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_CPF" id="625095C3-64B3-2DCE-EAAF-A343DAD4394F">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2021-03-11 15:00:16 UTC</createdTime>
+<ownerDesignName>Atributo_Multivalorado</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6E644410-7AD5-C7FC-2576-8D927C238CC0" name="PK_FIAP_FUNCIONARIO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2021-03-11 14:59:08 UTC</createdTime>
+<ownerDesignName>Atributo_Multivalorado</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>15A097FF-A07C-398B-0F86-D42FFB66F5C7</newElementsIDs>
+<usedAttributes>
+<attributeRef>15A097FF-A07C-398B-0F86-D42FFB66F5C7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

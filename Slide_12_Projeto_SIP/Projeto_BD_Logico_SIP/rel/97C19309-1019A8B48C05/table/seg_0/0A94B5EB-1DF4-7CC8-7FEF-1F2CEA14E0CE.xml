@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0A94B5EB-1DF4-7CC8-7FEF-1F2CEA14E0CE" name="T_SIP_DEPARTAMENTO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2021-03-17 21:08:14 UTC</createdTime>
+<generatorID>0D363DF2-A17E-427C-4283-0E66702A2E8C</generatorID>
+<ownerDesignName>Projeto_BD_Logico_SIP</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_depto" id="FF1AE070-EE31-DDF9-82BA-43A0A87D042A">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2021-03-17 21:08:14 UTC</createdTime>
+<generatorID>0E8E52B3-97F7-D085-8A5C-ED14C0704A0B</generatorID>
+<ownerDesignName>Projeto_BD_Logico_SIP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_depto" id="4C6F1041-47E1-ED76-99ED-7D68A14E385A">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2021-03-17 21:08:14 UTC</createdTime>
+<generatorID>1D1C42EC-9407-7362-A481-32A6B4CCD331</generatorID>
+<ownerDesignName>Projeto_BD_Logico_SIP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F31432FD-552F-428C-D801-B1A7925DE613" name="PK_SIP_DEPARTAMENTO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2021-03-17 21:08:14 UTC</createdTime>
+<generatorID>F2AD6E30-95CA-58DE-95E0-AFDA968F71A7</generatorID>
+<ownerDesignName>Projeto_BD_Logico_SIP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF1AE070-EE31-DDF9-82BA-43A0A87D042A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
