@@ -19,3 +19,6 @@ DROP TABLE t_sip_implantacao CASCADE CONSTRAINTS;
 DROP TABLE t_sip_projeto CASCADE CONSTRAINTS;
 
 DROP TABLE t_sip_tipo_endereco CASCADE CONSTRAINTS;
+
+DROP SEQUENCE sq_sip_func;
+DROP SEQUENCE sq_sip_depto;

@@ -169,3 +169,12 @@ ALTER TABLE t_sip_bairro
 ALTER TABLE t_sip_endereco 
 	ADD CONSTRAINT fk_sip_bairro_endereco FOREIGN KEY ( cd_bairro )
 		REFERENCES t_sip_bairro ( cd_bairro );
+		
+		
+-- SEQUENCES
+
+CREATE SEQUENCE sq_sip_func
+	INCREMENT BY 1;
+	
+CREATE SEQUENCE sq_sip_depto 
+	INCREMENT BY 1;	
